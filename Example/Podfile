@@ -1,0 +1,14 @@
+use_frameworks!
+
+source 'https://github.com/WQCloudProject/CloudSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'WQCTMediator_Extension_Example' do
+  pod 'WQCTMediator_Extension', :path => '../'
+
+  target 'WQCTMediator_Extension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
