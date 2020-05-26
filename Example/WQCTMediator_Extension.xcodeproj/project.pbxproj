@@ -291,10 +291,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WQCTMediator_Extension_Example/Pods-WQCTMediator_Extension_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WQCTMediator/WQCTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/WQCTMediator_Extension/WQCTMediator_Extension.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WQCTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WQCTMediator_Extension.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
